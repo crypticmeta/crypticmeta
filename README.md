@@ -28,6 +28,8 @@ Building [Coderixx](https://coderixx.com) · Noida, India
 
 **[BountyEscrow](https://github.com/crypticmeta/gigbounties-contracts)** — Solana/Anchor escrow program for [GigBounties](https://github.com/crypticmeta/gigbounties), a USDC bounty marketplace. Multi-token reward legs (SPL + Token-2022 + wrapped SOL), commit-reveal submissions, dispute resolution with bonded arbitration, and permissionless creator-default handling so funds can never be trapped by a disappearing funder. Deployed under a 3-of-4 Squads multisig with a scripted, hash-verified release pipeline; 30+ integration/unit/property tests before deployment.
 
+**OWNR Protocol — Solana** *(private)* — Solana-native token launchpad: trust-based contribution limits, automatic DAMM liquidity provisioning, price-based team vesting, presale support, and futarchy governance over launches. Same product family as the Base launchpad below, built chain-native rather than ported.
+
 ### EVM
 
 **OWNR Protocol** *(Base, private)* — Trust-based token launch platform. Contribution caps scale with a wallet's launch history (six trust tiers, 1–100 ETH), automatic DAO treasury per launch, automatic liquidity provisioning, price-based team vesting, full refunds on failed launches.
@@ -37,6 +39,8 @@ Building [Coderixx](https://coderixx.com) · Noida, India
 ### Trading / prediction markets
 
 **Polymarket trading bots** *(Rust, private)* — A whale-copy bot (per-wallet allocation limits, elite wallet tracking) and an automated market maker (configurable spreads, inventory management) for Polymarket, plus a REST API/analytics layer over both.
+
+**ChartSensei** *(private)* — Gamified trading-education platform: users read 50 historical candles, take a LONG/SHORT position with TP/SL, then watch the real outcome play out candle-by-candle. 100 levels of increasing difficulty, win-rate gating, and real market data instead of static theory.
 
 ### Bitcoin / Ordinals
 
