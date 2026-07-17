@@ -1,4 +1,4 @@
-# Ankit Pathak (CrypticMeta)
+# CrypticMeta
 
 Full-stack + Web3 engineer — Solana/Anchor, EVM/Solidity, Bitcoin/Ordinals, and AI-agent products. ~4 years shipping production dApps and infra for real money movement: escrow, payments, launchpads, and trading bots.
 
@@ -12,15 +12,11 @@ Building [Coderixx](https://coderixx.com) · Noida, India
 
 **[BountyEscrow](https://github.com/crypticmeta/gigbounties-contracts)** — Solana/Anchor escrow program for [GigBounties](https://github.com/crypticmeta/gigbounties), a USDC bounty marketplace. Multi-token reward legs (SPL + Token-2022 + wrapped SOL), commit-reveal submissions, dispute resolution with bonded arbitration, and permissionless creator-default handling so funds can never be trapped by a disappearing funder. Deployed under a 3-of-4 Squads multisig with a scripted, hash-verified release pipeline; 30+ integration/unit/property tests before deployment.
 
-**[Solana Pay Referral](https://github.com/crypticmeta/solana-referral-app)** — Atomic on-chain payment splitter for SOL/USDC with a tiered affiliate commission system. One transaction moves payer → PDA → merchant + affiliate; no escrow, no backend, no callbacks, trustless replay prevention on reference reuse.
-
-**[MetaDAO programs](https://github.com/crypticmeta/metadao_programs)** — Work on futarchy/prediction-market-governed program infrastructure (MetaDAO ecosystem).
-
 ### EVM
 
 **OWNR Protocol** *(Base, private)* — Trust-based token launch platform. Contribution caps scale with a wallet's launch history (six trust tiers, 1–100 ETH), automatic DAO treasury per launch, automatic liquidity provisioning, price-based team vesting, full refunds on failed launches.
 
-**[payment-integrators](https://github.com/crypticmeta/payment-integrators)** — Open-source Solidity integrators for a B2B checkout protocol settling local fiat (UPI, PIX, SPEI) into USDC on Base. Production integrator live on Base mainnet.
+**[GigRamp integrator](https://github.com/crypticmeta/payment-integrators)** — Solidity USDC→INR offramp integrator for a B2B checkout protocol (P2P), contributed to its open-source integrator repo. Offramp-only: pulls gross USDC, hard-caps its fee at 200 bps, settles UPI delivery, and reconciles against the protocol's authoritative order status with full-gross refunds on cancel. 24 tests, 93% line coverage.
 
 ### Trading / prediction markets
 
