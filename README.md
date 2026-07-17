@@ -26,9 +26,11 @@ Building [Coderixx](https://coderixx.com) · Noida, India
 
 ### Onchain / Solana
 
-**[BountyEscrow](https://github.com/crypticmeta/gigbounties-contracts)** — Solana/Anchor escrow program for [GigBounties](https://github.com/crypticmeta/gigbounties), a USDC bounty marketplace. Multi-token reward legs (SPL + Token-2022 + wrapped SOL), commit-reveal submissions, dispute resolution with bonded arbitration, and permissionless creator-default handling so funds can never be trapped by a disappearing funder. Deployed under a 3-of-4 Squads multisig with a scripted, hash-verified release pipeline; 30+ integration/unit/property tests before deployment.
+**[GigBounties](https://github.com/crypticmeta/gigbounties)** — Program + app. A USDC bounty marketplace where funders escrow one to four SOL/SPL reward coins in [BountyEscrow](https://github.com/crypticmeta/gigbounties-contracts), an Anchor program with multi-token reward legs (SPL + Token-2022 + wrapped SOL), commit-reveal submissions, and bonded dispute arbitration — plus the Next.js app on top. Deployed under a 3-of-4 Squads multisig with a scripted, hash-verified release pipeline; 30+ integration/unit/property tests before deployment.
 
 **OWNR Protocol — Solana** *(private)* — Solana-native token launchpad: trust-based contribution limits, automatic DAMM liquidity provisioning, price-based team vesting, presale support, and futarchy governance over launches. Same product family as the Base launchpad below, built chain-native rather than ported.
+
+**bittyai** *(private)* — Solana click-game monorepo: Next.js web app plus an Anchor program workspace, with a demo mode that runs the full UI without a wallet or chain call.
 
 ### EVM
 
