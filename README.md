@@ -52,23 +52,6 @@ Building [Coderixx](https://coderixx.com) · Noida, India
 
 ---
 
-## 📊 GitHub stats
-
-![](https://github-readme-stats.vercel.app/api?username=crypticmeta&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
-![](https://github-readme-streak-stats.herokuapp.com/?user=crypticmeta&theme=dark&hide_border=false)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=crypticmeta&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=crypticmeta&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
----
-
-## Currently
-
-Building [MycoRealms](https://github.com/crypticmeta) — a futarchy-governed, radically transparent real-world agriculture DAO. Same on-chain-accountability instincts as the escrow and payment work above, applied outside crypto.
-
 Open to short, well-scoped contracts (Solana/EVM smart contracts, escrow/payment rails, AI agent products).
 
 [![](https://visitcount.itsvg.in/api?id=crypticmeta&icon=0&color=0)](https://visitcount.itsvg.in)
